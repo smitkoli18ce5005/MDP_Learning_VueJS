@@ -9,7 +9,7 @@ import Todos from "./components/Todos/Todos.vue";
 export default {
   name: "App",
   components: {
-    Todos,
+    Todos
   },
   data() {
     return {
@@ -34,6 +34,18 @@ export default {
       ],
     };
   },
+  beforeCreate(){
+    console.log("BeforeCreate App.vue")
+  },
+  created(){
+    console.log("Create App.vue")
+  },
+  beforeMount(){
+    console.log("BeforeMount App.vue")
+  },
+  mounted(){
+    console.log("Mounted App.vue")
+  }
 };
 </script>
 

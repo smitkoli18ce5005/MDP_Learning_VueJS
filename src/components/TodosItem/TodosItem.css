@@ -1,3 +1,7 @@
 h1{
     font-size: 66px;
 }
+.todosItem-div{
+    background-color: aqua;
+    border-radius: 40px;
+}

@@ -9,7 +9,7 @@ export default {
   },
   data(){
       return{
-          mainClass: "main-div"
+          mainClass: "todosItem-div"
       }
   }
 }
