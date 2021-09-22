@@ -8,7 +8,7 @@
     <button class="buttonClass" @click="flag = !flag">To change flag</button>
     <p v-show="flag" v-text="vshow"></p>
 
-    <p v-text="greet"></p>
+    <p v-if="flag" v-text="greet"></p>
 
   <div v-if="flag" class="input-pair">
     <label for="textData">This is textData</label>   
@@ -17,7 +17,7 @@
     
 
     <div v-for="items in employeeArray" v-bind:key="items.id">
-        <TodosItem v-bind:name="items.name"/>
+        <TodosItem v-if="flag" v-bind:name="items.name"/>
     </div>
   </div>
 </template>

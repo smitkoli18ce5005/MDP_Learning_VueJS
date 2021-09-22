@@ -18,9 +18,9 @@ export default {
       return{
           mainClass: "main-div",
           welcome: "Hello World!",
-          flag: true,
-          morning: `<b>Good morning!<b>`,
-          evening: `<b>Good evening!<b>`,
+          flag: false,
+          evening: `<b>Good morning!<b>`,
+          morning: `<b>Good evening!<b>`,
           vshow: "This is V-show",
           textData: ""
       }
